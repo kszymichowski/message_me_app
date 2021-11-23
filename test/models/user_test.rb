@@ -6,7 +6,7 @@ class UserTest < ActiveSupport::TestCase
       @user = User.new(username: "user1", password: "password1")
   end
 
-  test "category should be valid" do
+  test "user should be valid" do
       assert @user.valid?
   end
 
