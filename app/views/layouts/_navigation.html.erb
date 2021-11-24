@@ -21,7 +21,7 @@
                 </div>
             <% else %>
                 <div class="item">
-                    <%= link_to "Log out", logout_path, class: "ui primary button"%>
+                    <%= link_to "Log out", logout_path, method: :delete, class: "ui primary button"%>
                 </div>
             <% end %>
         </div>
